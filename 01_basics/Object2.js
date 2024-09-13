@@ -18,7 +18,7 @@ fullname: {
         }
 }
 
-console.log(reularUser.fullname.userfullname.lastname);         //o/p: kumari
+console.log(regularUser.fullname.userfullname.lastname);         //o/p: kumari
 
 const obj1 = {1: "a", 2:"b"}
 const obj2 = {3: "a", 4:"b"}
@@ -68,27 +68,5 @@ const {courseInstructor :instructor} = course
 
 console.log(instructor);		//o/p:hitesh
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(instructor);
+//Api
