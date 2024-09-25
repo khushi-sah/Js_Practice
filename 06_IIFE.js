@@ -45,7 +45,15 @@
 
 // 3. execution Phase
 //val1 = 10
-//val2 = 2
-//addNum = defination
-//result1 = undefined
-//result2 = undefined
+//val2 = 5
+//addNum = new variable environment + execution thread
+//+++++++++++++++
+//3A. Memory phase for addNum
+//val1 = undefined
+//val2 = undefined
+//total = undefined
+
+//3B. execution context
+//num1 = 10
+//num2 = 5
+//total = 15  this total value will be going to global execution
