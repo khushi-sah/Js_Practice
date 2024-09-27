@@ -1,4 +1,4 @@
-//Array specific loop
+//for of loop
 
 // ["", "" , ""]
 // [ {] ,{} ,{} ]
@@ -28,3 +28,12 @@ for (const [key, value] of map) {
    console.log(key, ':-', value); 
 }
 
+// const myObject = {
+//    'game1' : 'NFS',
+//    'game2' : 'Spiderman'
+// }
+// for (const [key, value] of myObject) {
+//    console.log(key, ':-', value); 
+// }
+
+// map can't be iterable with for in loop
